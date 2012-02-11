@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93CBC8A514E6256200B08274 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A414E6256200B08274 /* UIKit.framework */; };
+		93CBC8A714E6256200B08274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A614E6256200B08274 /* Foundation.framework */; };
+		93CBC8A914E6256200B08274 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A814E6256200B08274 /* CoreGraphics.framework */; };
+		93CBC8AF14E6256200B08274 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93CBC8AD14E6256200B08274 /* InfoPlist.strings */; };
+		93CBC8B114E6256200B08274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CBC8B014E6256200B08274 /* main.m */; };
+		93CBC8B514E6256200B08274 /* ReadyPopAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CBC8B414E6256200B08274 /* ReadyPopAppDelegate.m */; };
+		93CBC8B814E6256200B08274 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CBC8B614E6256200B08274 /* MainStoryboard.storyboard */; };
+		93CBC8BB14E6256200B08274 /* ReadyPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CBC8BA14E6256200B08274 /* ReadyPopViewController.m */; };
+		93CBC8C314E6256200B08274 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8C214E6256200B08274 /* SenTestingKit.framework */; };
+		93CBC8C414E6256200B08274 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A414E6256200B08274 /* UIKit.framework */; };
+		93CBC8C514E6256200B08274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A614E6256200B08274 /* Foundation.framework */; };
+		93CBC8CD14E6256200B08274 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93CBC8CB14E6256200B08274 /* InfoPlist.strings */; };
+		93CBC8D014E6256200B08274 /* Ready_Pop_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CBC8CF14E6256200B08274 /* Ready_Pop_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93CBC8C614E6256200B08274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93CBC89714E6256200B08274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93CBC89F14E6256200B08274;
+			remoteInfo = "Ready Pop!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93CBC8A014E6256200B08274 /* Ready Pop!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ready Pop!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CBC8A414E6256200B08274 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93CBC8A614E6256200B08274 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93CBC8A814E6256200B08274 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93CBC8AC14E6256200B08274 /* Ready Pop!-Info.plist */ = {isa = PBXFileReference; path = "Ready Pop!-Info.plist"; sourceTree = "<group>"; };
+		93CBC8AE14E6256200B08274 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93CBC8B014E6256200B08274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93CBC8B214E6256200B08274 /* Ready Pop!-Prefix.pch */ = {isa = PBXFileReference; path = "Ready Pop!-Prefix.pch"; sourceTree = "<group>"; };
+		93CBC8B314E6256200B08274 /* ReadyPopAppDelegate.h */ = {isa = PBXFileReference; path = ReadyPopAppDelegate.h; sourceTree = "<group>"; };
+		93CBC8B414E6256200B08274 /* ReadyPopAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadyPopAppDelegate.m; sourceTree = "<group>"; };
+		93CBC8B714E6256200B08274 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		93CBC8B914E6256200B08274 /* ReadyPopViewController.h */ = {isa = PBXFileReference; path = ReadyPopViewController.h; sourceTree = "<group>"; };
+		93CBC8BA14E6256200B08274 /* ReadyPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadyPopViewController.m; sourceTree = "<group>"; };
+		93CBC8C114E6256200B08274 /* Ready Pop!Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ready Pop!Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93CBC8C214E6256200B08274 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		93CBC8CA14E6256200B08274 /* Ready Pop!Tests-Info.plist */ = {isa = PBXFileReference; path = "Ready Pop!Tests-Info.plist"; sourceTree = "<group>"; };
+		93CBC8CC14E6256200B08274 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93CBC8CE14E6256200B08274 /* Ready_Pop_Tests.h */ = {isa = PBXFileReference; path = Ready_Pop_Tests.h; sourceTree = "<group>"; };
+		93CBC8CF14E6256200B08274 /* Ready_Pop_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ready_Pop_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93CBC89D14E6256200B08274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CBC8A514E6256200B08274 /* UIKit.framework in Frameworks */,
+				93CBC8A714E6256200B08274 /* Foundation.framework in Frameworks */,
+				93CBC8A914E6256200B08274 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CBC8BD14E6256200B08274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CBC8C314E6256200B08274 /* SenTestingKit.framework in Frameworks */,
+				93CBC8C414E6256200B08274 /* UIKit.framework in Frameworks */,
+				93CBC8C514E6256200B08274 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93CBC89514E6256200B08274 = {
+			isa = PBXGroup;
+			children = (
+				93CBC8AA14E6256200B08274 /* Ready Pop! */,
+				93CBC8C814E6256200B08274 /* Ready Pop!Tests */,
+				93CBC8A314E6256200B08274 /* Frameworks */,
+				93CBC8A114E6256200B08274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93CBC8A114E6256200B08274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93CBC8A014E6256200B08274 /* Ready Pop!.app */,
+				93CBC8C114E6256200B08274 /* Ready Pop!Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93CBC8A314E6256200B08274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93CBC8A414E6256200B08274 /* UIKit.framework */,
+				93CBC8A614E6256200B08274 /* Foundation.framework */,
+				93CBC8A814E6256200B08274 /* CoreGraphics.framework */,
+				93CBC8C214E6256200B08274 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93CBC8AA14E6256200B08274 /* Ready Pop! */ = {
+			isa = PBXGroup;
+			children = (
+				93CBC8B314E6256200B08274 /* ReadyPopAppDelegate.h */,
+				93CBC8B414E6256200B08274 /* ReadyPopAppDelegate.m */,
+				93CBC8B614E6256200B08274 /* MainStoryboard.storyboard */,
+				93CBC8B914E6256200B08274 /* ReadyPopViewController.h */,
+				93CBC8BA14E6256200B08274 /* ReadyPopViewController.m */,
+				93CBC8AB14E6256200B08274 /* Supporting Files */,
+			);
+			path = "Ready Pop!";
+			sourceTree = "<group>";
+		};
+		93CBC8AB14E6256200B08274 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93CBC8AC14E6256200B08274 /* Ready Pop!-Info.plist */,
+				93CBC8AD14E6256200B08274 /* InfoPlist.strings */,
+				93CBC8B014E6256200B08274 /* main.m */,
+				93CBC8B214E6256200B08274 /* Ready Pop!-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93CBC8C814E6256200B08274 /* Ready Pop!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				93CBC8CE14E6256200B08274 /* Ready_Pop_Tests.h */,
+				93CBC8CF14E6256200B08274 /* Ready_Pop_Tests.m */,
+				93CBC8C914E6256200B08274 /* Supporting Files */,
+			);
+			path = "Ready Pop!Tests";
+			sourceTree = "<group>";
+		};
+		93CBC8C914E6256200B08274 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93CBC8CA14E6256200B08274 /* Ready Pop!Tests-Info.plist */,
+				93CBC8CB14E6256200B08274 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93CBC89F14E6256200B08274 /* Ready Pop! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CBC8D314E6256200B08274 /* Build configuration list for PBXNativeTarget "Ready Pop!" */;
+			buildPhases = (
+				93CBC89C14E6256200B08274 /* Sources */,
+				93CBC89D14E6256200B08274 /* Frameworks */,
+				93CBC89E14E6256200B08274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ready Pop!";
+			productName = "Ready Pop!";
+			productReference = 93CBC8A014E6256200B08274 /* Ready Pop!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93CBC8C014E6256200B08274 /* Ready Pop!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93CBC8D614E6256200B08274 /* Build configuration list for PBXNativeTarget "Ready Pop!Tests" */;
+			buildPhases = (
+				93CBC8BC14E6256200B08274 /* Sources */,
+				93CBC8BD14E6256200B08274 /* Frameworks */,
+				93CBC8BE14E6256200B08274 /* Resources */,
+				93CBC8BF14E6256200B08274 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93CBC8C714E6256200B08274 /* PBXTargetDependency */,
+			);
+			name = "Ready Pop!Tests";
+			productName = "Ready Pop!Tests";
+			productReference = 93CBC8C114E6256200B08274 /* Ready Pop!Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93CBC89714E6256200B08274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 93CBC89A14E6256200B08274 /* Build configuration list for PBXProject "Ready Pop!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93CBC89514E6256200B08274;
+			productRefGroup = 93CBC8A114E6256200B08274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93CBC89F14E6256200B08274 /* Ready Pop! */,
+				93CBC8C014E6256200B08274 /* Ready Pop!Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93CBC89E14E6256200B08274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CBC8AF14E6256200B08274 /* InfoPlist.strings in Resources */,
+				93CBC8B814E6256200B08274 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CBC8BE14E6256200B08274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CBC8CD14E6256200B08274 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93CBC8BF14E6256200B08274 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93CBC89C14E6256200B08274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CBC8B114E6256200B08274 /* main.m in Sources */,
+				93CBC8B514E6256200B08274 /* ReadyPopAppDelegate.m in Sources */,
+				93CBC8BB14E6256200B08274 /* ReadyPopViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CBC8BC14E6256200B08274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93CBC8D014E6256200B08274 /* Ready_Pop_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93CBC8C714E6256200B08274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93CBC89F14E6256200B08274 /* Ready Pop! */;
+			targetProxy = 93CBC8C614E6256200B08274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93CBC8AD14E6256200B08274 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93CBC8AE14E6256200B08274 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93CBC8B614E6256200B08274 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93CBC8B714E6256200B08274 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		93CBC8CB14E6256200B08274 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93CBC8CC14E6256200B08274 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93CBC8D114E6256200B08274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93CBC8D214E6256200B08274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93CBC8D414E6256200B08274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ready Pop!/Ready Pop!-Prefix.pch";
+				INFOPLIST_FILE = "Ready Pop!/Ready Pop!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93CBC8D514E6256200B08274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ready Pop!/Ready Pop!-Prefix.pch";
+				INFOPLIST_FILE = "Ready Pop!/Ready Pop!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		93CBC8D714E6256200B08274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ready Pop!.app/Ready Pop!";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ready Pop!/Ready Pop!-Prefix.pch";
+				INFOPLIST_FILE = "Ready Pop!Tests/Ready Pop!Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		93CBC8D814E6256200B08274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ready Pop!.app/Ready Pop!";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ready Pop!/Ready Pop!-Prefix.pch";
+				INFOPLIST_FILE = "Ready Pop!Tests/Ready Pop!Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93CBC89A14E6256200B08274 /* Build configuration list for PBXProject "Ready Pop!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CBC8D114E6256200B08274 /* Debug */,
+				93CBC8D214E6256200B08274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93CBC8D314E6256200B08274 /* Build configuration list for PBXNativeTarget "Ready Pop!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CBC8D414E6256200B08274 /* Debug */,
+				93CBC8D514E6256200B08274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93CBC8D614E6256200B08274 /* Build configuration list for PBXNativeTarget "Ready Pop!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93CBC8D714E6256200B08274 /* Debug */,
+				93CBC8D814E6256200B08274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93CBC89714E6256200B08274 /* Project object */;
+}
