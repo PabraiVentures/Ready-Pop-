@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9304CB031517BFEC00F0F638 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9304CB021517BFEC00F0F638 /* alarm.mp3 */; };
+		9319E695156D12ED0053685E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9319E694156D12ED0053685E /* button.png */; };
+		931D759E156D7EA5006C9399 /* startImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 931D759D156D7EA5006C9399 /* startImage.png */; };
+		9341293614F057DA00BC5314 /* hdicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9341293514F057DA00BC5314 /* hdicon.png */; };
+		9341294014F2D9F400BC5314 /* popcorn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9341293F14F2D9F400BC5314 /* popcorn2.png */; };
+		9341294314F2E39C00BC5314 /* red_and_white_diagonal_stripes_background_seamless.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9341294214F2E39C00BC5314 /* red_and_white_diagonal_stripes_background_seamless.gif */; };
+		9341294514F2E59200BC5314 /* popcorn3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9341294414F2E59200BC5314 /* popcorn3.png */; };
+		939F8560151D328700AF4C31 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 939F855F151D328700AF4C31 /* icon.png */; };
 		93CBC8A514E6256200B08274 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A414E6256200B08274 /* UIKit.framework */; };
 		93CBC8A714E6256200B08274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A614E6256200B08274 /* Foundation.framework */; };
 		93CBC8A914E6256200B08274 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A814E6256200B08274 /* CoreGraphics.framework */; };
@@ -20,6 +28,9 @@
 		93CBC8C514E6256200B08274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A614E6256200B08274 /* Foundation.framework */; };
 		93CBC8CD14E6256200B08274 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93CBC8CB14E6256200B08274 /* InfoPlist.strings */; };
 		93CBC8D014E6256200B08274 /* Ready_Pop_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CBC8CF14E6256200B08274 /* Ready_Pop_Tests.m */; };
+		93CBC8DA14E6257E00B08274 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8D914E6257E00B08274 /* CoreAudio.framework */; };
+		93CBC8DD14E6269800B08274 /* PopHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CBC8DC14E6269800B08274 /* PopHelper.m */; };
+		93CBC8DF14E628B600B08274 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8DE14E628B600B08274 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +44,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9304CB021517BFEC00F0F638 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm.mp3; path = ../../../../Desktop/alarm.mp3; sourceTree = "<group>"; };
+		9319E694156D12ED0053685E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		931D759D156D7EA5006C9399 /* startImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage.png; sourceTree = "<group>"; };
+		9341293514F057DA00BC5314 /* hdicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hdicon.png; path = ../../../../Desktop/ReadyPop/hdicon.png; sourceTree = "<group>"; };
+		9341293F14F2D9F400BC5314 /* popcorn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popcorn2.png; path = ../../../../Desktop/popcorn2.png; sourceTree = "<group>"; };
+		9341294214F2E39C00BC5314 /* red_and_white_diagonal_stripes_background_seamless.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = red_and_white_diagonal_stripes_background_seamless.gif; path = ../../../../Desktop/ReadyPop/red_and_white_diagonal_stripes_background_seamless.gif; sourceTree = "<group>"; };
+		9341294414F2E59200BC5314 /* popcorn3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popcorn3.png; path = ../../../../Desktop/popcorn3.png; sourceTree = "<group>"; };
+		939F855F151D328700AF4C31 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../Desktop/ReadyPop/icon.png; sourceTree = "<group>"; };
 		93CBC8A014E6256200B08274 /* Ready Pop!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ready Pop!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CBC8A414E6256200B08274 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		93CBC8A614E6256200B08274 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		93CBC8A814E6256200B08274 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		93CBC8AC14E6256200B08274 /* Ready Pop!-Info.plist */ = {isa = PBXFileReference; path = "Ready Pop!-Info.plist"; sourceTree = "<group>"; };
+		93CBC8AC14E6256200B08274 /* Ready Pop!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ready Pop!-Info.plist"; sourceTree = "<group>"; };
 		93CBC8AE14E6256200B08274 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93CBC8B014E6256200B08274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		93CBC8B214E6256200B08274 /* Ready Pop!-Prefix.pch */ = {isa = PBXFileReference; path = "Ready Pop!-Prefix.pch"; sourceTree = "<group>"; };
-		93CBC8B314E6256200B08274 /* ReadyPopAppDelegate.h */ = {isa = PBXFileReference; path = ReadyPopAppDelegate.h; sourceTree = "<group>"; };
+		93CBC8B214E6256200B08274 /* Ready Pop!-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ready Pop!-Prefix.pch"; sourceTree = "<group>"; };
+		93CBC8B314E6256200B08274 /* ReadyPopAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadyPopAppDelegate.h; sourceTree = "<group>"; };
 		93CBC8B414E6256200B08274 /* ReadyPopAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadyPopAppDelegate.m; sourceTree = "<group>"; };
 		93CBC8B714E6256200B08274 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		93CBC8B914E6256200B08274 /* ReadyPopViewController.h */ = {isa = PBXFileReference; path = ReadyPopViewController.h; sourceTree = "<group>"; };
+		93CBC8B914E6256200B08274 /* ReadyPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadyPopViewController.h; sourceTree = "<group>"; };
 		93CBC8BA14E6256200B08274 /* ReadyPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadyPopViewController.m; sourceTree = "<group>"; };
 		93CBC8C114E6256200B08274 /* Ready Pop!Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ready Pop!Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CBC8C214E6256200B08274 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		93CBC8CA14E6256200B08274 /* Ready Pop!Tests-Info.plist */ = {isa = PBXFileReference; path = "Ready Pop!Tests-Info.plist"; sourceTree = "<group>"; };
+		93CBC8CA14E6256200B08274 /* Ready Pop!Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ready Pop!Tests-Info.plist"; sourceTree = "<group>"; };
 		93CBC8CC14E6256200B08274 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		93CBC8CE14E6256200B08274 /* Ready_Pop_Tests.h */ = {isa = PBXFileReference; path = Ready_Pop_Tests.h; sourceTree = "<group>"; };
+		93CBC8CE14E6256200B08274 /* Ready_Pop_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ready_Pop_Tests.h; sourceTree = "<group>"; };
 		93CBC8CF14E6256200B08274 /* Ready_Pop_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ready_Pop_Tests.m; sourceTree = "<group>"; };
+		93CBC8D914E6257E00B08274 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		93CBC8DB14E6269800B08274 /* PopHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopHelper.h; sourceTree = "<group>"; };
+		93CBC8DC14E6269800B08274 /* PopHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopHelper.m; sourceTree = "<group>"; };
+		93CBC8DE14E628B600B08274 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93CBC8DA14E6257E00B08274 /* CoreAudio.framework in Frameworks */,
+				93CBC8DF14E628B600B08274 /* AVFoundation.framework in Frameworks */,
 				93CBC8A514E6256200B08274 /* UIKit.framework in Frameworks */,
 				93CBC8A714E6256200B08274 /* Foundation.framework in Frameworks */,
 				93CBC8A914E6256200B08274 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +106,8 @@
 		93CBC89514E6256200B08274 = {
 			isa = PBXGroup;
 			children = (
+				93CBC8DE14E628B600B08274 /* AVFoundation.framework */,
+				93CBC8D914E6257E00B08274 /* CoreAudio.framework */,
 				93CBC8AA14E6256200B08274 /* Ready Pop! */,
 				93CBC8C814E6256200B08274 /* Ready Pop!Tests */,
 				93CBC8A314E6256200B08274 /* Frameworks */,
@@ -114,6 +141,8 @@
 				93CBC8B314E6256200B08274 /* ReadyPopAppDelegate.h */,
 				93CBC8B414E6256200B08274 /* ReadyPopAppDelegate.m */,
 				93CBC8B614E6256200B08274 /* MainStoryboard.storyboard */,
+				93CBC8DB14E6269800B08274 /* PopHelper.h */,
+				93CBC8DC14E6269800B08274 /* PopHelper.m */,
 				93CBC8B914E6256200B08274 /* ReadyPopViewController.h */,
 				93CBC8BA14E6256200B08274 /* ReadyPopViewController.m */,
 				93CBC8AB14E6256200B08274 /* Supporting Files */,
@@ -124,7 +153,15 @@
 		93CBC8AB14E6256200B08274 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9319E694156D12ED0053685E /* button.png */,
 				93CBC8AC14E6256200B08274 /* Ready Pop!-Info.plist */,
+				9341293F14F2D9F400BC5314 /* popcorn2.png */,
+				9341294414F2E59200BC5314 /* popcorn3.png */,
+				939F855F151D328700AF4C31 /* icon.png */,
+				9341294214F2E39C00BC5314 /* red_and_white_diagonal_stripes_background_seamless.gif */,
+				9341293514F057DA00BC5314 /* hdicon.png */,
+				931D759D156D7EA5006C9399 /* startImage.png */,
+				9304CB021517BFEC00F0F638 /* alarm.mp3 */,
 				93CBC8AD14E6256200B08274 /* InfoPlist.strings */,
 				93CBC8B014E6256200B08274 /* main.m */,
 				93CBC8B214E6256200B08274 /* Ready Pop!-Prefix.pch */,
@@ -223,6 +260,14 @@
 			files = (
 				93CBC8AF14E6256200B08274 /* InfoPlist.strings in Resources */,
 				93CBC8B814E6256200B08274 /* MainStoryboard.storyboard in Resources */,
+				9341293614F057DA00BC5314 /* hdicon.png in Resources */,
+				9341294014F2D9F400BC5314 /* popcorn2.png in Resources */,
+				9341294314F2E39C00BC5314 /* red_and_white_diagonal_stripes_background_seamless.gif in Resources */,
+				9341294514F2E59200BC5314 /* popcorn3.png in Resources */,
+				9304CB031517BFEC00F0F638 /* alarm.mp3 in Resources */,
+				939F8560151D328700AF4C31 /* icon.png in Resources */,
+				9319E695156D12ED0053685E /* button.png in Resources */,
+				931D759E156D7EA5006C9399 /* startImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +305,7 @@
 				93CBC8B114E6256200B08274 /* main.m in Sources */,
 				93CBC8B514E6256200B08274 /* ReadyPopAppDelegate.m in Sources */,
 				93CBC8BB14E6256200B08274 /* ReadyPopViewController.m in Sources */,
+				93CBC8DD14E6269800B08274 /* PopHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +361,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -330,6 +377,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -340,7 +389,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Nathan Pabrai (GAZMMWHJ6B)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -349,6 +399,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E3B959A0-A96A-4F5D-B198-4EA7D4C76ECB";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -368,10 +420,12 @@
 		93CBC8D514E6256200B08274 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ready Pop!/Ready Pop!-Prefix.pch";
 				INFOPLIST_FILE = "Ready Pop!/Ready Pop!-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,6 +483,7 @@
 				93CBC8D514E6256200B08274 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93CBC8D614E6256200B08274 /* Build configuration list for PBXNativeTarget "Ready Pop!Tests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +492,7 @@
 				93CBC8D814E6256200B08274 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
