@@ -7,14 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9304CB031517BFEC00F0F638 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9304CB021517BFEC00F0F638 /* alarm.mp3 */; };
 		9319E695156D12ED0053685E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9319E694156D12ED0053685E /* button.png */; };
 		931D759E156D7EA5006C9399 /* startImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 931D759D156D7EA5006C9399 /* startImage.png */; };
-		9341293614F057DA00BC5314 /* hdicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9341293514F057DA00BC5314 /* hdicon.png */; };
-		9341294014F2D9F400BC5314 /* popcorn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9341293F14F2D9F400BC5314 /* popcorn2.png */; };
-		9341294314F2E39C00BC5314 /* red_and_white_diagonal_stripes_background_seamless.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9341294214F2E39C00BC5314 /* red_and_white_diagonal_stripes_background_seamless.gif */; };
-		9341294514F2E59200BC5314 /* popcorn3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9341294414F2E59200BC5314 /* popcorn3.png */; };
-		939F8560151D328700AF4C31 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 939F855F151D328700AF4C31 /* icon.png */; };
+		932EA79218AC75590003D9A3 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 932EA79118AC75590003D9A3 /* alarm.mp3 */; };
 		93CBC8A514E6256200B08274 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A414E6256200B08274 /* UIKit.framework */; };
 		93CBC8A714E6256200B08274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A614E6256200B08274 /* Foundation.framework */; };
 		93CBC8A914E6256200B08274 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CBC8A814E6256200B08274 /* CoreGraphics.framework */; };
@@ -47,6 +42,7 @@
 		9304CB021517BFEC00F0F638 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm.mp3; path = ../../../../Desktop/alarm.mp3; sourceTree = "<group>"; };
 		9319E694156D12ED0053685E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 		931D759D156D7EA5006C9399 /* startImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startImage.png; sourceTree = "<group>"; };
+		932EA79118AC75590003D9A3 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
 		9341293514F057DA00BC5314 /* hdicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hdicon.png; path = ../../../../Desktop/ReadyPop/hdicon.png; sourceTree = "<group>"; };
 		9341293F14F2D9F400BC5314 /* popcorn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = popcorn2.png; path = ../../../../Desktop/popcorn2.png; sourceTree = "<group>"; };
 		9341294214F2E39C00BC5314 /* red_and_white_diagonal_stripes_background_seamless.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = red_and_white_diagonal_stripes_background_seamless.gif; path = ../../../../Desktop/ReadyPop/red_and_white_diagonal_stripes_background_seamless.gif; sourceTree = "<group>"; };
@@ -106,6 +102,7 @@
 		93CBC89514E6256200B08274 = {
 			isa = PBXGroup;
 			children = (
+				932EA79118AC75590003D9A3 /* alarm.mp3 */,
 				93CBC8DE14E628B600B08274 /* AVFoundation.framework */,
 				93CBC8D914E6257E00B08274 /* CoreAudio.framework */,
 				93CBC8AA14E6256200B08274 /* Ready Pop! */,
@@ -260,13 +257,8 @@
 			files = (
 				93CBC8AF14E6256200B08274 /* InfoPlist.strings in Resources */,
 				93CBC8B814E6256200B08274 /* MainStoryboard.storyboard in Resources */,
-				9341293614F057DA00BC5314 /* hdicon.png in Resources */,
-				9341294014F2D9F400BC5314 /* popcorn2.png in Resources */,
-				9341294314F2E39C00BC5314 /* red_and_white_diagonal_stripes_background_seamless.gif in Resources */,
-				9341294514F2E59200BC5314 /* popcorn3.png in Resources */,
-				9304CB031517BFEC00F0F638 /* alarm.mp3 in Resources */,
-				939F8560151D328700AF4C31 /* icon.png in Resources */,
 				9319E695156D12ED0053685E /* button.png in Resources */,
+				932EA79218AC75590003D9A3 /* alarm.mp3 in Resources */,
 				931D759E156D7EA5006C9399 /* startImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
